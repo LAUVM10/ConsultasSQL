@@ -1,0 +1,10 @@
+SELECT film_id, title FROM film;
+SELECT * FROM film LIMIT 5;
+SELECT * FROM film WHERE film_id<4;
+SELECT * FROM film WHERE rating = 'PG' OR rating = 'G';
+SELECT * FROM actor WHERE first_name IN ('Angela','Angelina','Audrey');
+SELECT * FROM actor WHERE first_name IN ('Julia');
+SELECT * FROM actor WHERE first_name IN ('Chris','Cameron','Cuba');
+SELECT * FROM customer WHERE first_name = 'Jamie' AND last_name = 'Rice';
+SELECT amount,payment_date FROM payment WHERE amount<1;
+SELECT * FROM rental;
